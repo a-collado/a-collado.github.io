@@ -17,7 +17,6 @@ sidebarBtn.addEventListener("click", function () {
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
-const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
 // modal variable
@@ -46,10 +45,6 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     testimonialsModalFunc();
   });
 }
-
-// add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
 
 // custom select variables
 const selectItems = document.querySelectorAll("[data-select-item]");
@@ -122,7 +117,6 @@ for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
     for (let i = 0; i < navigationLinks.length; i++) {
       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        console.log(navigationLinks[i]);
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
