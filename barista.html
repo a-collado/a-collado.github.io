@@ -46,13 +46,13 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Alex Collado Garrido">Alex Collado Garrido</h1>
+          <h1 class="name" title="Alex Collado Garrido" lng-tag="name"></h1>
 
-          <p class="title">Gameplay Programmer</p>
+          <p class="title" lng-tag="title"></p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span lng-tag="contacts"></span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -72,9 +72,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <p class="contact-title" lng-tag="email"></p>
 
-              <a href="mailto:alex.collado@proton.me" class="contact-link">alex.collado@proton.me</a>
+              <a href="mailto:alex.collado@proton.me" class="contact-link" lng-tag="email-text"></a>
             </div>
 
           </li>
@@ -86,9 +86,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title" lng-tag="phone"></p>
 
-              <a href="tel:+34669189957" class="contact-link">+34 669 189 957</a>
+              <a href="tel:+34669189957" class="contact-link" lng-tag="phone-text"></a>
             </div>
 
           </li>
@@ -100,9 +100,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title" lng-tag="birthday"></p>
 
-              <time datetime="2001-02-02">Feb 02, 2001</time>
+              <time datetime="2001-02-02" lng-tag="birthday-text"></time>
             </div>
 
           </li>
@@ -114,9 +114,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title" lng-tag="location"></p>
 
-              <address>Castelldefels, Barcelona, Spain</address>
+              <address lng-tag="location-text"></address>
             </div>
 
           </li>
@@ -160,7 +160,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link" onclick="window.location.href='index.html';" >Go Back</button>
+            <button class="navbar-link" onclick="window.location.href='index.html';" lng-tag="back"></button>
           </li>
 
         </ul>
@@ -174,20 +174,18 @@
       <article class="resume  active" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Mad Barista</h2>
+          <h2 class="h2 article-title" lng-tag="barista-title"></h2>
         </header>
 
         <img class="logo" src="assets/images/barista/title.png" alt="Logo" style="margin-bottom:50px;">
 
         <section class="about-text">
-          <p>
-            Mad Barista es un juego para VR desarrollado en Unity. En este juego tienes que atender a los clientes sirviendoles las bebidas que ellos te soliciten. Tendrás que mezclar los ingredientes correctos para preparar los cocteles solicitados!
+          <p lng-tag="barista-text-1">
           </p>
 
           <iframe class="logo" width="560" height="315" src="https://www.youtube.com/embed/b7pRS25t_Ww?si=kNV7Dc3kBFMDyx5f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          <p>
-            Este juego se creo como el trabajo final de la asignatura de Realidad Virtual en 2023, y mi trabajo en este juego fue como programador del gameplay y technical artist. Programe todas las mecánicas que te permiten servir las copas y mezclar los ingredientes. También trabaje en el montaje de la escena y los diferentes shaders de los efectos gráficos que se ven en el juego.
+          <p lng-tag="barista-text-2">
           </p>
 
           <img class="logo" src="./assets/images/barista/screenshot-1.png" style="margin-bottom:20px;">

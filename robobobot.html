@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Alex Collado Garrido</title>
 
   <!--
     - favicon
@@ -46,13 +46,13 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Alex Collado Garrido">Alex Collado Garrido</h1>
+          <h1 class="name" title="Alex Collado Garrido" lng-tag="name"></h1>
 
-          <p class="title">Gameplay Programmer</p>
+          <p class="title" lng-tag="title"></p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span lng-tag="contacts"></span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -72,9 +72,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <p class="contact-title" lng-tag="email"></p>
 
-              <a href="mailto:alex.collado@proton.me" class="contact-link">alex.collado@proton.me</a>
+              <a href="mailto:alex.collado@proton.me" class="contact-link" lng-tag="email-text"></a>
             </div>
 
           </li>
@@ -86,9 +86,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title" lng-tag="phone"></p>
 
-              <a href="tel:+34669189957" class="contact-link">+34 669 189 957</a>
+              <a href="tel:+34669189957" class="contact-link" lng-tag="phone-text"></a>
             </div>
 
           </li>
@@ -100,9 +100,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title" lng-tag="birthday"></p>
 
-              <time datetime="2001-02-02">Feb 02, 2001</time>
+              <time datetime="2001-02-02" lng-tag="birthday-text"></time>
             </div>
 
           </li>
@@ -114,9 +114,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title" lng-tag="location"></p>
 
-              <address>Castelldefels, Barcelona, Spain</address>
+              <address lng-tag="location-text"></address>
             </div>
 
           </li>
@@ -160,7 +160,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link" onclick="window.location.href='index.html';" >Go Back</button>
+            <button class="navbar-link" onclick="window.location.href='index.html';" lng-tag="back"></button>
           </li>
 
         </ul>
@@ -174,16 +174,14 @@
       <article class="resume  active" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Robo Bobot</h2>
+          <h2 class="h2 article-title" lng-tag="robo-title"></h2>
         </header>
 
         <section class="about-text">
 
           <img class="logo" src="assets/images/robo-bobot/logo.png" alt="Logo" style="margin-bottom:10px;">
 
-          <p>
-            Robo Bobot es un juego móvil multijugador de acción árcade en el que dos personas compiten entre ellas en un juego de pelota inspirado por el air hockey.
-            El juego tiene un modo para un jugador en el que se juega contra la maquina o un modo multijugador en el que pueden jugar dos personas.
+          <p lng-tag="robo-text-1">
           </p>
 
           <video width="540" controls>
@@ -196,12 +194,7 @@
           <img class="logo" src="assets/images/robo-bobot/UI/4.gif" style="margin-bottom:20px;">
           <img class="logo" src="assets/images/robo-bobot/UI/5.gif" style="margin-bottom:20px;">
 
-          <p>
-          Falta incluir un gameplay multijugador
-          </p>
-
-          <a href="https://colladog.itch.io/robo-bobot">
-            Pagina de itch.io del juego
+          <a href="https://colladog.itch.io/robo-bobot" lng-tag="robo-text-2">
           </a>
 
         </section>
