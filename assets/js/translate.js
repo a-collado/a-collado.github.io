@@ -18,6 +18,7 @@ function Translate() {
       {
         if(xrhFile.status === 200 || xrhFile.status == 0)
         {
+          console.log(xrhFile.responseText)
           var LngObject = JSON.parse(xrhFile.responseText);
           var allDom = document.getElementsByTagName("*");
           for(var i =0; i < allDom.length; i++){
