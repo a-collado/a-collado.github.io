@@ -46,13 +46,13 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Alex Collado Garrido">Alex Collado Garrido</h1>
+          <h1 class="name" title="Alex Collado Garrido" lng-tag="name"></h1>
 
-          <p class="title">Gameplay Programmer</p>
+          <p class="title" lng-tag="title"></p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span lng-tag="contacts"></span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title" lng-tag="email"></p>
 
-              <a href="mailto:alex.collado@proton.me" class="contact-link">alex.collado@proton.me</a>
+              <a href="mailto:alex.collado@proton.me" class="contact-link" lng-tag="email-text"></a>
             </div>
 
           </li>
@@ -86,9 +86,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title" lng-tag="phone"></p>
 
-              <a href="tel:+34669189957" class="contact-link">+34 669 189 957</a>
+              <a href="tel:+34669189957" class="contact-link" lng-tag="phone-text"></a>
             </div>
 
           </li>
@@ -100,9 +100,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title" lng-tag="birthday"></p>
 
-              <time datetime="2001-02-02">Feb 02, 2001</time>
+              <time datetime="2001-02-02" lng-tag="birthday-text"></time>
             </div>
 
           </li>
@@ -114,9 +114,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title" lng-tag="location"></p>
 
-              <address>Castelldefels, Barcelona, Spain</address>
+              <address lng-tag="location-text"></address>
             </div>
 
           </li>
@@ -168,11 +168,11 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link lng-tag="resume"></button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Portfolio</button>
+            <button class="navbar-link  active" data-nav-link lng-tag="portfolio"></button>
           </li>
 
         </ul>
@@ -186,13 +186,11 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title" lng-tag="about"></h2>
         </header>
 
         <section class="about-text">
-          <p>
-            Multimedia Engineer with interest in video game development, especially in gameplay programming. 
-            I am always open to new experiences, I like to focus on the problem solving, and I want to dedicate myself to creating interactive experiences for everyone to enjoy.
+          <p lng-tag="about-text">
           </p>
 
         </section>
@@ -204,19 +202,18 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3" lng-tag="education"></h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">La Salle (Universitat Ramon Llull)</h4>
+              <h4 class="h4 timeline-item-title" lng-tag="education-salle"></h4>
 
-              <span>2019 — 2024</span>
+              <span lng-tag="education-salle-date"></span>
 
-              <p class="timeline-text">
-                Bachelor's Degree in Multimedia Engineering
+              <p class="timeline-text" lng-tag="education-text">
               </p>
 
             </li>
@@ -232,19 +229,18 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3" lng-tag="experience"></h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">IT Developer Intern</h4>
+              <h4 class="h4 timeline-item-title" lng-tag="experience-itbid"></h4>
 
-              <span>itbid - Feb. 2024 — Jul. 2024</span>
+              <span lng-tag="experience-itbid-date"></span>
 
-              <p class="timeline-text">
-                Worked maintaining and upgrading the itbid web platform and solving support tickets as full-stack developer intern.
+              <p class="timeline-text" lng-tag="experience-itbid-text">
               </p>
 
             </li>
@@ -255,7 +251,7 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Hard Skills</h3>
+          <h3 class="h3 skills-title" lng-tag="hard-skills"></h3>
 
           <ul class="skills-list content-card">
 
@@ -263,24 +259,24 @@
             
               <div style="margin-bottom:10px">
                 <div class="title-wrapper">
-                  <h5 class="h4">IT Developer Intern</h4>
+                  <h5 class="h4" lng-tag="hard-skills-1"></h4>
                 </div>
-                  <p class="timeline-text">Unity, Godot, Unreal Engine 4</p>
+                  <p class="timeline-text" lng-tag="hard-skills-1-text"></p>
               </div>
 
 
               <div style="margin-bottom:10px">
                 <div class="title-wrapper">
-                  <h5 class="h4">Programming</h4>
+                  <h5 class="h4" lng-tag="hard-skills-2"></h4>
                 </div>
-                  <p class="timeline-text">C#, C++, C, GDScript</p>
+                  <p class="timeline-text" lng-tag="hard-skills-2-text"></p>
               </div>
 
               <div style="margin-bottom:10px">
                 <div class="title-wrapper">
-                  <h5 class="h4">3D Modelling</h4>
+                  <h5 class="h4" lng-tag="hard-skills-3"></h4>
                 </div>
-                  <p class="timeline-text">Blender, 3DS Max, Substance Painter</p>
+                  <p class="timeline-text" lng-tag="hard-skills-3-text"></p>
               </div>
 
             </li>
